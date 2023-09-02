@@ -10,11 +10,18 @@ body {
 
 .header {
     height: 80px;
+    width: 100%;
     background: #424c55;
-    color: #e0e8ef;
+    opacity: 0.8;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.header span {
+    color: #4bcaff;
+
 }
 
 .head-right {
@@ -26,18 +33,41 @@ body {
 }
 
 .head-right li button {
-    padding: 6px;
-    border: 1px solid #4d96b4;
-    background: #424c55;
-    color: #4d96b4;
+    border: 1px solid #4bcaff;
+    background-color: #424c55;
+    color: #4bcaff;
+    padding: 9px 26px;
+    font-size: 16px;
 }
 
-/* button ke properties */
-/* background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px; */
+/* image section */
+.img-section {
+    background-image: url("./assests/Buffalo_Grass_2-20-14.webp");
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* justify-content: space-between; */
+    color: #fff;
+    /* padding: 20px;  */
+}
+.img-section .contant{
+    display: flex;
+    flex-direction: column;
+    
+}
+.contant{
+    
+    margin: calc(center);
+}
+
+.contant h2{
+/* margin: 30px; */
+}
+
+/* responsiveness media qures */
+
