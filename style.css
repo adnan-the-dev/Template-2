@@ -11,7 +11,7 @@ body {
 .header {
     height: 80px;
     width: 100%;
-    background: #424c55;
+    background: #414b53;
     opacity: 0.8;
     color: #fff;
     display: flex;
@@ -33,16 +33,18 @@ body {
 }
 
 .head-right li button {
-    border: 1px solid #4bcaff;
+    border: 3px solid #4bcaff;
     background-color: #424c55;
     color: #4bcaff;
-    padding: 9px 26px;
+    padding: 7px 20px;
     font-size: 16px;
+    font-weight: bolder;
 }
 
 /* image section */
 .img-section {
-    background-image: url("./assests/Buffalo_Grass_2-20-14.webp");
+    position: relative;
+    background-image: url("./assests/images.jpeg");
     height: 550px;
     background-position: center;
     background-repeat: no-repeat;
@@ -58,16 +60,48 @@ body {
 .img-section .contant{
     display: flex;
     flex-direction: column;
+    gap: 15px;
     
 }
 .contant{
-    
-    margin: calc(center);
+    position: absolute;
+    top: 43%;    
 }
 
 .contant h2{
-/* margin: 30px; */
+    font-size: xx-large;
 }
 
 /* responsiveness media qures */
+.services-section{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+    background-color: #4bcaff;
+}
+.service h2{
+    position: absolute;
+    color: #e2f6ff;
+    left: 3rem;
+    top: 2rem;
+}
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   margin-top:4rem;
 
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #e2f6ff;
+    /* margin: 12px; */
+}
+.box img{
+    height: 5rem;
+    width: 5rem;
+}
