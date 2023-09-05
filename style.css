@@ -12,7 +12,7 @@ body {
     height: 80px;
     width: 100%;
     background: #414b53;
-    opacity: 0.8;
+    opacity: 0.7;
     color: #fff;
     display: flex;
     align-items: center;
@@ -44,7 +44,7 @@ body {
 /* image section */
 .img-section {
     position: relative;
-    background-image: url("./assests/images.jpeg");
+    background-image: url("./assests/pexels-photo-176851.jpeg");
     height: 550px;
     background-position: center;
     background-repeat: no-repeat;
@@ -57,51 +57,93 @@ body {
     color: #fff;
     /* padding: 20px;  */
 }
-.img-section .contant{
+
+.img-section .contant {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    
-}
-.contant{
-    position: absolute;
-    top: 43%;    
+
 }
 
-.contant h2{
+.contant {
+    position: absolute;
+    top: 43%;
+}
+
+.contant h2 {
     font-size: xx-large;
 }
 
-/* responsiveness media qures */
-.services-section{
-    height: 250px;
+/* services-section */
+
+.services-section {
+    height: 260px;
     display: flex;
     flex-direction: column;
     gap: 12px;
     position: relative;
     background-color: #4bcaff;
 }
-.service h2{
+
+.service h2 {
     position: absolute;
     color: #e2f6ff;
-    left: 3rem;
+    left: 5rem;
     top: 2rem;
 }
-.boxes{
+
+.boxes {
     display: flex;
     align-items: center;
     justify-content: space-around;
-   margin-top:4rem;
+    margin-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
 
 }
-.box{
+
+.box {
     display: flex;
     flex-direction: column;
     gap: 10px;
     color: #e2f6ff;
     /* margin: 12px; */
 }
-.box img{
-    height: 5rem;
-    width: 5rem;
+
+.box img {
+    height: 4rem;
+    width: 4rem;
+}
+
+/* footer-section */
+.imges-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+}
+
+.imge img {
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+}
+
+#inline,
+#inline1 {}
+
+#inline {
+    border-bottom: 2px solid gray;
+    font-size: 22px;
+    color: gray;
+    font-weight: 600;
+
+}
+
+#inline1 {
+    font-size: 22px;
+    color: gray;
+    font-weight: 600;
+    /* margin-right: px; */
+
 }
