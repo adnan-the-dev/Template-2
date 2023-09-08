@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    height: 70px;
+    background: #24252a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+
+.tags {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.tags li {
+    list-style: none;
+}
+
+.tags li button {
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: transparent;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 20px;
+}
